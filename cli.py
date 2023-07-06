@@ -55,6 +55,7 @@ while True:
                 file.writelines(tasks)
             message = f"Task {task_tobe_removed} has been removed!"
             print(message)
+            print(message)
         except IndexError:
             print('Your index is out of range')
             continue
