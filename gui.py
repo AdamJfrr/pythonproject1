@@ -26,7 +26,6 @@ while True:
             index_chosen = todos.index(chosen_task)
             new_task = values['todo']
             todos[index_chosen]=new_task
-            print(todos)
             functions.write_todos('todos.txt',todos)
             window['todos'].update(values=todos)
         case sg.WIN_CLOSED:
