@@ -27,6 +27,7 @@ while True:
             new_task = values['todo']
             todos[index_chosen]=new_task
             functions.write_todos('todos.txt',todos)
+            print(todos)
             window['todos'].update(values=todos)
         case sg.WIN_CLOSED:
             break
